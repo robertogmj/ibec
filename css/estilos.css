@@ -1,0 +1,430 @@
+    *{margin:0; padding:0;}	
+	
+/***Codigos Padrões***/
+
+	body{
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+	background: #202020;
+	}
+
+	span{
+	display:none;	
+	}
+
+	h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#003366;
+	}
+	
+	#bgtela{
+	min-width:1002px;
+	max-width:1280px;
+	min-height:794px;
+	max-height:912px;
+	margin:0 auto;
+	}
+	
+	#principal{
+	width:1002px;
+	height:912px;
+	margin:0 auto;
+	padding:2px;
+	}
+	
+/*** Divs Cabecalho ***/
+	#cabecalho{
+	width:996px;
+	height:200px;
+	background:url(../imgs/bgbox.png);
+	margin:0 auto;
+	padding:2px;
+	}
+	
+	#toplogo{
+	width:200px;
+	height:200px;
+	padding-left:10px;
+	float:left;
+	}
+	
+	#toptxt{
+	width:450px;
+	float:right;
+	padding-right:2px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#003366;
+	text-align:right;
+	}
+	
+	#toplogin{
+	width:450px;
+	float:right;
+	margin-top:115px;
+	padding-right:2px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#003366;
+	text-align:right;
+	}
+	
+/*** Divs Boxs ***/
+	#conteudo{
+	width:900px;
+	float:left;
+	}
+	
+	.boxconteudo{
+	width:894px;
+	height:616px;
+	background:#FFFFFF;
+	float:left;
+	margin:1px;
+	padding:2px;	
+	}
+	
+	.titconteudo{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#990000;
+	font-weight:bold;
+	margin-left:30px;
+	margin-bottom:5px;
+	}
+	
+	.txtconteudo{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#003366;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:5px;
+	text-align:justify;
+	}
+	
+	.boxdestaque{
+	width:894px;
+	height:216px;
+	background:url(../imgs/bgbox.png);
+	float:left;
+	margin:1px;
+	padding:2px;	
+	}
+	
+	#boxcont1{
+	width:450px;
+	float:left;
+	}
+	
+	#boxcont2{
+	width:450px;
+	float:right;
+	}
+	
+	.box1x1{
+	width:219px;
+	height:96px;
+	background:url(../imgs/bgbox.png);
+	float:left;
+	margin:1px;
+	padding:2px;	
+	}
+	
+	.box1x1 a{
+	opacity: 0.6;	
+	}
+	
+	.box1x1 a:hover{
+	opacity: 1.0;	
+	}
+	
+	.imgbox1x1{
+	width:136px;
+	height:84px;
+	margin-top:12px;
+	float:left;	
+	}
+	
+	.txtbox1x1{
+	width:83px;
+	height:20px;
+	margin-top:76px;
+	float:right;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#990000;
+	}
+	
+	.box1x2{
+	width:219px;
+	height:198px;
+	background:url(../imgs/bgbox.png);
+	float:right;
+	margin:1px;
+	padding:2px;	
+	}
+	
+	.box1x2 a{
+	opacity: 0.6;	
+	}
+	
+	.box1x2 a:hover{
+	opacity: 1.0;	
+	}
+	
+	.imgbox1x2{
+	width:219px;
+	height:180px;
+	float:left;	
+	}
+	
+	.txtbox1x2{
+	width:219px;
+	height:18px;
+	margin-top:2px;
+	float:right;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#990000;
+	text-align:center;
+	}
+	
+	.box2x1{
+	width:444px;
+	height:96px;
+	background:url(../imgs/bgbox.png);
+	float:left;
+	margin:1px;
+	padding:2px;	
+	}
+	
+	.box2x1 a{
+	opacity: 0.6;	
+	}
+	
+	.box2x1 a:hover{
+	opacity: 1.0;	
+	}
+	
+	.imgbox2x1{
+	width:130px;
+	height:96px;
+	margin-top:5px;
+	margin-left:40px;
+	float:left;	
+	}
+	
+	.txtbox2x1{
+	width:120px;
+	height:20px;
+	margin-top:50px;
+	margin-right:40px;
+	float:right;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#990000;
+	}
+	
+	.box2x2{
+	width:444px;
+	height:198px;
+	background:url(../imgs/bgbox.png);
+	float:left;
+	margin:1px;
+	padding:2px;	
+	}
+	
+	.box2x2 a{
+	opacity: 0.6;	
+	}
+	
+	.box2x2 a:hover{
+	opacity: 1.0;	
+	}
+	
+	.imgbox2x2{
+	width:198px;
+	height:198px;
+	margin-top:2px;
+	margin-left:80px;
+	float:left;	
+	}
+	
+	.txtbox2x2{
+	width:120px;
+	height:20px;
+	margin-top:150px;
+	margin-right:30px;
+	float:right;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#990000;
+	}
+	
+	.titboxsocial{
+	width:120px;
+	height:20px;
+	margin-top:2px;
+	margin-right:80px;
+	float:right;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:right;
+	color:#003366;
+	}
+	
+	.imgboxsocial{
+	width:88px;
+	height:88px;
+	margin-top:5px;
+	margin-left:80px;
+	float:left;	
+	border:1px dashed #666666;
+	}
+	
+	.txtboxsocial{
+	width:120px;
+	height:20px;
+	margin-top:2px;
+	margin-right:80px;
+	float:right;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-align:right;
+	color:#990000;
+	}
+	
+	.subtxtboxsocial{
+	width:120px;
+	height:20px;
+	margin-top:2px;
+	margin-right:80px;
+	float:right;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:right;
+	color:#003366;
+	}
+	
+	.boxright{
+	width:96px;
+	height:84px;
+	background:url(../imgs/bgbox.png);
+	float:right;
+	margin:1px;
+	padding:1px;
+	}
+	
+	.boxright a{
+	opacity: 0.6;	
+	}
+	
+	.boxright a:hover{
+	opacity: 1.0;	
+	}
+	
+	.boxrightcont{
+	width:96px;
+	height:84px;
+	background:url(../imgs/bg_contador.png) no-repeat;
+	float:right;
+	margin:1px;
+	padding:1px;
+	}
+	
+	.titboxcont{
+	width:96px;
+	float:left;
+	margin-top:5px;
+	font:Helvetica, sans-serif, Arial;
+	font-size:12px;
+	font-weight:bold;
+	color:#666666;
+	text-align:center;
+	}
+	
+	.txtboxcont{
+	width:96px;
+	float:left;
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#006699;
+	text-align:center;
+	}
+	
+	.numboxcont{
+	width:96px;
+	float:left;
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#990000;
+	margin-top:15px;
+	text-align:center;
+	}
+	
+	.boxright2{
+	width:96px;
+	height:174px;
+	background:url(../imgs/bg_alerta.png);
+	float:right;
+	margin:1px;
+	padding:1px;
+	}
+	
+	.titalerta{
+	background:#FFCC00;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#990000;
+	text-align:center;
+	}
+	
+	.msgalerta{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#003366;
+	text-align:center;
+	}
+	
+	.boxright3{
+	width:96px;
+	height:264px;
+	float:right;
+	margin:1px;
+	padding:1px;
+	}
+	
+	.boxsocial{
+	width:96px;
+	height:65px;
+	margin-bottom:2px;
+	}
+	
+	.boxsocial a{
+	opacity: 0.6;	
+	}
+	
+	.boxsocial a:hover{
+	opacity: 1.0;	
+	}
+	
+
+	
+/*** Divs Rodape ***/
+	#rodape{
+	width:996px;
+	height:70px;
+	background:url(../imgs/bgbox.png);
+	float:left;
+	margin-left:1px;
+	padding:2px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#003366;
+	text-align:center;	
+	}
